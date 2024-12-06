@@ -1,0 +1,29 @@
+body {
+  background-image: url("robot.jpg");
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: center; /* Center the image */
+  font-family:"Lucida Console", "Courier New", monospace;
+  color:#0b132b;
+}
+
+.container {
+  text-align: left;
+  background-color: #56cfe1; 
+  margin: auto; 
+  border: 7px solid #0b132b; 
+  border-radius: 30px; 
+  padding: 30px; 
+  box-shadow: 5px 5px 15px rgba(30, 10, 20, 1.0);
+  opacity: 0.95;
+}
+
+h1{
+  text-align: center;
+  size: 130px; 
+  font-family:"Lucida Console", "Courier New", monospace;
+  animation: bounceInDown;
+  animation-duration: 2s;
+  color: #72efdd;
+  background-color: #0b132b;
+}
